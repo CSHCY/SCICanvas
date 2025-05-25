@@ -1,0 +1,58 @@
+# SCICanvas AI for Science Toolkit Requirements
+# Generated from CV conda environment - December 2024
+
+# Core deep learning frameworks
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+
+# Scientific computing and data manipulation
+numpy==2.0.0
+scipy==1.14.1
+pandas==2.2.3
+scikit-learn==1.5.2
+numba==0.61.0
+
+# Single-cell analysis
+scanpy==1.11.1
+anndata==0.11.4
+umap-learn==0.5.7
+pynndescent==0.5.13
+
+# Data processing and I/O
+h5py==3.13.0
+tqdm==4.67.1
+
+# Visualization and plotting
+matplotlib-base==3.10.0
+seaborn==0.13.2
+pillow==11.0.0
+
+# Machine learning utilities
+tensorboard==2.19.0
+wandb==0.19.11
+
+# Computer vision (for materials/protein visualization)
+opencv-python==4.10.0.84
+
+# Development and utilities
+jupyter==1.1.1
+jupyterlab==4.3.4
+notebook==7.3.2
+
+# Statistical analysis
+statsmodels==0.14.4
+patsy==1.0.1
+
+# Network analysis
+networkx==3.2.1
+
+# Additional utilities
+pyyaml==6.0.2
+requests==2.32.3
+packaging==24.2
+setuptools==75.1.0
+
+# Note: This requirements.txt is generated from the actual CV conda environment
+# Some packages may be conda-specific and might need pip equivalents
+# For full environment reproduction, use: conda env create -f cv_environment.txt 
