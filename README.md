@@ -82,7 +82,7 @@ scicanvas/
 
 ## 📚 Documentation
 
-Detailed documentation is available in the `docs/` directory and online at [documentation-link].
+Detailed documentation is available in the `docs/` directory and online at [online-document-to-do].
 
 ## 🤝 Contributing
 
